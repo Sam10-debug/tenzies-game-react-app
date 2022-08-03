@@ -1,0 +1,57 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	min-height: 100vh;
+	background-color: grey;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+p{
+	margin-block: 1rem;
+}
+main{
+	background-color: white;
+	height: 400px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+}
+.btn{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-block: 2rem;
+
+}
+button{
+	box-shadow: none;
+	outline: none;
+	border-radius: 3px;
+	font-size: 1.2rem;
+	width: 150px;
+	background-color: green;
+	color: #ffffff;
+}
+.dice-container{
+	display: grid;
+	grid-template: auto auto / repeat(5,1fr);
+	gap: 20px;
+}
+.die-face{
+	height: 50px;
+	width: 50px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	border: 1px solid #000;
+	cursor: pointer;
+}
