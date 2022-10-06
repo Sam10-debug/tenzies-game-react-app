@@ -11,9 +11,13 @@ function App() {
   const [tenzies,setTenzies]= useState(false)
   const[diceNumbers,setDiceNumbers] =useState(allNewDice())
 
-  const die= diceNumbers.map(dice=>{
-    return <Die  value={dice.rand} key={dice.id} id={dice.id} isHeld={dice.isHeld} onClick={holdDice} />
-  })
+  const die= diceNumbers.map(dice=>(
+     <Die  
+     value={dice.rand} 
+     key={dice.id} id={dice.id} 
+     isHeld={dice.isHeld} 
+     onClick={holdDice} />
+  ))
 
   function holdDice(id){
     // console.log(id)
