@@ -19,7 +19,7 @@ p{
 }
 main{
 	background-color: white;
-	height: 400px;
+	height: 450px;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
@@ -42,7 +42,7 @@ button{
 	border-radius: 3px;
 	font-size: 1.2rem;
 	width: 150px;
-	background-color: red;
+	background-color: green;
 	color: #ffffff;
 }
 .dice-container{
